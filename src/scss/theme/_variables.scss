@@ -176,7 +176,7 @@ $enable-negative-margins: true !default;
 //-----------------------------------------------*/
 
 // $box-shadow: 0 .6375rem .975rem 0 #F4F8FE, 0 3px 6px 0 #F4F8FE !default;
-$box-shadow-sm: 0 1.5625rem 2.8125rem rgba(#0057FF, .15) !default;
+$box-shadow-sm: 0 1.5625rem 2.8125rem rgba($primary, .15) !default;
 $box-shadow-lg: 0 1rem 4rem rgba($black, 0.175) !default;
 
 //*-----------------------------------------------
@@ -320,7 +320,7 @@ $blockquote-font-size: $font-size-lg !default;
 //|   Buttons and Forms
 //-----------------------------------------------*/
 $input-bg           :  $gray-200 !default;
-$input-placeholder-color:    $gray-500 !important;
+$input-placeholder-color:    $gray-900 !important;
 $input-btn-font-size-lg:  $font-size-base !default;
 
 $btn-reveal-hover-shadow: 0 0 0 1px rgba(43, 45, 80, 0.1),
